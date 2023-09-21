@@ -1,0 +1,9 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.9.13, pytest-7.1.2, pluggy-1.0.0
+rootdir: /Users/rbasnet/Library/CloudStorage/OneDrive-ColoradoMesaUniversity/CMU/2023/Fall/adv-py/AdvPy-rbasnet/kattis/hello
+plugins: anyio-3.5.0
+collected 1 item
+
+test_main.py .                                                           [100%]
+
+============================== 1 passed in 0.03s ===============================
