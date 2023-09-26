@@ -42,10 +42,18 @@ def main() -> None:
     """Main function.
     """
 
-    temp_count = input()
-    temps = input()
+    temp_count = input().strip()
+    temps = sys.stdin.readline().strip().split()
+    # int_temps = [int(t) for t in temps]
+    int_temps = map(int, temps)
+    # for t in temps:
+    #    int_temps.append(int(t))
+    int_temps = [0]*int(temp_count)
+    for i in range(temp_count):
+        int_temps[i] = int(sys.stdin.readline())
+
     print(f'{temp_count=} {temps=}', file=sys.stderr)
-    print(answer(temps))
+    print(answer1(int_temps))
 
 
 if __name__ == "__main__":
