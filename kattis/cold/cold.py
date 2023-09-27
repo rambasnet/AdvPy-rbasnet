@@ -8,7 +8,7 @@ from typing import List
 
 __author__ = "Ram Basnet"
 __date__ = "Sep 19, 2023"
-__course__ = "Advanced Python"
+# __course__ = "Advanced Python"
 
 def answer(data: str) -> int:
     """Finda and returns -ve temps in data
